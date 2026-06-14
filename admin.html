@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Admin</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="admin.css">
+</head>
+
+<body>
+    <div class="shell">
+        <aside class="sidebar">
+            <h1>Portfolio Admin</h1>
+            <nav class="Admin navigation">
+                <a href="#overview">Overview</a>
+                <a href="#content">Content</a>
+                <a href="#projects-admin">Projects</a>
+                <a href="index.html">Homepage</a>
+            </nav>
+        </aside>
+
+        <main>
+            <section class="top-header">
+                <div>
+                    <h2>Manage Portfolio</h2>
+                    <p>Review homepage sections, project cards, and personal profile content.</p>
+                </div>
+                <a class="open-btn" href="index.html">View Site</a>
+            </section>
+
+            <section class="stats">
+                <article class="stat-box">
+                    <strong>02</strong>
+                    <span>Interface pages</span>
+                </article>
+                <article class="stat-box">
+                    <strong>02</strong>
+                    <span>Project previews</span>
+                </article>
+                <article class="stat-box">
+                    <strong>03</strong>
+                    <span>Skill groups</span>
+                </article>
+            </section>
+
+            <section class="grid" id="content">
+                <article class="panel">
+                    <div class="toolbar">
+                        <h3>Homepage Content</h3>
+                        <a href="index.html#about">Edit View</a>
+                    </div>
+                    <div class="admin-list">
+                        <article>
+                            <span>Introduction</span>
+                        </article>
+                        <article>
+                            <span>Projects</span>
+                        </article>
+                        <article>
+                            <span>Skills</span>
+                        </article>
+                    </div>
+                </article>
+
+                <article class="panel" id="projects-admin">
+                    <div class="toolbar">
+                        <h3>Projects</h3>
+                        <a href="index.html#projects">Preview</a>
+                    </div>
+                    <div class="admin-list">
+                        <article>
+                            <span>NetCoffee</span>
+                            <strong>Published</strong>
+                        </article>
+                        <article>
+                            <span>F&amp;B Interface</span>
+                            <strong>Published</strong>
+                        </article>
+                    </div>
+                </article>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
